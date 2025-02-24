@@ -143,7 +143,7 @@ const BackgroundPattern: React.FC = () => (
 );
 
 // Enhanced Table of Contents component
-const TableOfContents: React.FC = () => {
+const TableOfContents: React.FC<{ className?: string }> = ({ className }) => {
   const [activeSection, setActiveSection] = useState("");
   const [isMounted, setIsMounted] = useState(false);
 
@@ -199,7 +199,7 @@ const TableOfContents: React.FC = () => {
       initial={{ x: -50, opacity: 0 }}
       animate={{ x: 0, opacity: 1 }}
       transition={{ duration: 0.8 }}
-      className={styles.tableOfContents}
+      className={`${styles.tableOfContents} ${className}`}
     >
       <div className={styles.tocLogo}>
         <Image
@@ -290,7 +290,7 @@ const TableOfContents: React.FC = () => {
 };
 
 // Enhanced ScrollToTop button
-const ScrollToTop: React.FC = () => {
+const ScrollToTop: React.FC<{ className?: string }> = ({ className }) => {
   const [visible, setVisible] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
 
@@ -313,7 +313,7 @@ const ScrollToTop: React.FC = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.3 }}
       onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-      className={styles.scrollToTop}
+      className={`${styles.scrollToTop} ${className}`}
     >
       ↑
     </motion.button>
@@ -449,7 +449,7 @@ const components = {
 
 const Page: React.FC = () => {
   return (
-    <div className={styles.container}>
+    <div className={`${styles.container} ${styles.smoothScroll}`}>
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -566,13 +566,13 @@ const Page: React.FC = () => {
         </motion.div>
       </motion.div>
 
-      <div className={styles.mainGrid}>
-        <TableOfContents />
+      <div className={`${styles.mainGrid} ${styles.mainGridPrint}`}>
+        <TableOfContents className={styles.printHidden} />
         <motion.main
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8 }}
-          className={styles.mainContent}
+          className={`${styles.mainContent} ${styles.mainContentPrint}`}
         >
           <motion.div 
             className={styles.decorativeCorner}
@@ -599,7 +599,7 @@ const Page: React.FC = () => {
         </motion.main>
       </div>
 
-      <ScrollToTop />
+      <ScrollToTop className={styles.printHidden} />
     </div>
   );
 };

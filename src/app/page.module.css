@@ -3,6 +3,8 @@
   min-height: 100vh;
   background: #f8fafc;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px; /* Adjust this value based on your header height */
 }
 
 /* Hero section */
@@ -506,17 +508,16 @@
 
 /* Print styles */
 @media print {
-  .scrollToTop,
-  .tableOfContents {
+  .printHidden {
     display: none;
   }
 
-  .mainGrid {
+  .mainGridPrint {
     display: block;
     padding: 0;
   }
 
-  .mainContent {
+  .mainContentPrint {
     box-shadow: none;
     padding: 0;
   }
@@ -863,7 +864,7 @@
 }
 
 /* Smooth Scroll Behavior */
-html {
+.smoothScroll {
   scroll-behavior: smooth;
   scroll-padding-top: 100px; /* Adjust this value based on your header height */
 }
