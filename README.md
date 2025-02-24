@@ -1,37 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Programme d'Excellence IA pour l'Institut Français Du Cambodge
 
-## Getting Started
+## 🎯 À Propos du Projet
 
-First, run the development server:
+Ce projet présente une formation d'excellence en Intelligence Artificielle spécialement conçue pour l'Institut Français du Cambodge. Notre programme vise à transformer la manière dont l'institut interagit avec ses étudiants et gère ses ressources éducatives grâce à l'IA.
+
+## 🚀 Caractéristiques
+
+- Interface utilisateur moderne et responsive
+- Design élégant avec animations fluides
+- Navigation intuitive avec table des matières dynamique
+- Optimisation SEO complète
+- Support multilingue (Français/Khmer)
+- Intégration des réseaux sociaux
+
+## 🛠 Technologies Utilisées
+
+- Next.js 14
+- React 18
+- TypeScript
+- CSS Modules
+- Framer Motion
+- React Markdown
+- Font Awesome Icons
+
+## 📦 Installation
 
 ```bash
+# Cloner le repository
+git clone https://github.com/khopilot/Programme-d-Excellence-IA-pour-l-Institut-Francais-Du-Cambodge.git
+
+# Accéder au répertoire
+cd Programme-d-Excellence-IA-pour-l-Institut-Francais-Du-Cambodge
+
+# Installer les dépendances
+npm install
+
+# Lancer le serveur de développement
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌐 Structure du Projet
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+french-institute-demo/
+├── src/
+│   ├── app/
+│   │   ├── components/
+│   │   ├── styles/
+│   │   ├── page.tsx
+│   │   └── page.module.css
+│   ├── public/
+│   │   ├── images/
+│   │   └── fonts/
+│   └── metadata.json
+├── package.json
+└── README.md
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📝 License
 
-## Learn More
+© 2024 Institut Français du Cambodge. Tous droits réservés.
 
-To learn more about Next.js, take a look at the following resources:
+## 👥 Contact
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Nicolas Delrieu**
+- GitHub: [@khopilot](https://github.com/khopilot)
+- LinkedIn: [Nicolas Delrieu](https://www.linkedin.com/in/nicolas-delrieu-a61a60224)
+- Telegram: [+855 92 332 554](https://t.me/+85592332554)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🤝 Contribution
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# Programme-d-Excellence-IA-pour-l-Institut-Fran-ais-Du-Cambodge
+Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à soumettre une pull request.

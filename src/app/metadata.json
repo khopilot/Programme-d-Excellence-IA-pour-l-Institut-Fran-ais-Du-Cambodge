@@ -1,0 +1,48 @@
+{
+  "title": "Programme d'Excellence IA pour l'Institut Français du Cambodge",
+  "description": "Formation d'excellence en Intelligence Artificielle adaptée aux besoins de l'Institut Français du Cambodge. Programme innovant combinant théorie et pratique pour une transformation numérique réussie.",
+  "keywords": [
+    "Institut Français du Cambodge",
+    "Formation IA",
+    "Intelligence Artificielle",
+    "Transformation Numérique",
+    "Formation Professionnelle",
+    "Innovation Culturelle",
+    "Cambodge",
+    "Education",
+    "Tech Education",
+    "Digital Transformation"
+  ],
+  "author": "Nicolas Delrieu",
+  "images": {
+    "hero": {
+      "src": "/v50HoGkMDHWHSNJO-generated_image.jpg",
+      "alt": "Intelligence Artificielle à l'Institut Français du Cambodge",
+      "width": 600,
+      "height": 400,
+      "description": "Illustration représentant la convergence entre technologie et culture à l'Institut Français du Cambodge"
+    },
+    "logo": {
+      "src": "/IFC_Bleu_SS_RVB.png",
+      "alt": "Logo Institut Français du Cambodge",
+      "width": 240,
+      "height": 80,
+      "description": "Logo officiel de l'Institut Français du Cambodge en version bleue"
+    }
+  },
+  "social": {
+    "github": "https://github.com/khopilot",
+    "telegram": "https://t.me/+85592332554",
+    "linkedin": "https://www.linkedin.com/in/nicolas-delrieu-a61a60224"
+  },
+  "dates": {
+    "formation": "24 février 2025",
+    "duration": "2 jours",
+    "location": "Siem Reap, Cambodge"
+  },
+  "price": {
+    "amount": 4000,
+    "currency": "USD",
+    "payment_terms": "3 versements de 1333 USD"
+  }
+} 
