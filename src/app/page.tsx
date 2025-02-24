@@ -100,11 +100,14 @@ L'Institut Français cherche à renforcer son excellence opérationnelle et son 
 ## 5. Calendrier d'Exécution
 
 \`\`\`
-Mai 2024 :
-Semaine 1 : Audit et Analysis
-Semaine 2 : Design et Planification
-Juin 2024 :
-Semaine 1 ou 2 : Formation à Siem Reap (dates à confirmer)
+Mars 2025 :
+Audit et Analysis
+
+Mai 2025 :
+Design et Planification
+
+Juin 2025 :
+Formation à Siem Reap (dates à confirmer)
 \`\`\`
 
 ## 6. Notre Engagement
